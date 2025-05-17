@@ -10,3 +10,19 @@ Este proyecto evalúa el rendimiento y la facilidad de uso de ejecutar **Chocola
 - 📊 Medir el consumo de RAM en ambos entornos
 - 🔧 Analizar la facilidad de implementación y mantenimiento
 
+
+## ⚙️ Entornos de Prueba
+
+### Docker en Windows (WSL2)
+- 🖥️ SO Invitado: Ubuntu 20.04 (WSL2)
+- ⚙️ Recursos Asignados: 2 CPU, 4 GB RAM
+- 💾 Disco utilizado: 1 GB imagen Docker
+- 🖥️ Interfaz de ejecución: Terminal (SDL modo texto)
+
+### Máquina Virtual (VirtualBox)
+- 🖥️ SO Invitado: Ubuntu 20.04
+- ⚙️ Recursos Asignados: 2 CPU, 4 GB RAM
+- 💾 Disco utilizado: 10 GB disco virtual
+- 🖥️ Interfaz de ejecución: Ventana gráfica completa
+
+---
