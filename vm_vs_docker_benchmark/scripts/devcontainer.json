@@ -11,8 +11,3 @@
     "remoteUser": "vscode"
   }
   
-  Le dice a VS Code cómo construir el contenedor usando Dockerfile.
-  
-  Abre el puerto 666 (opcional para juegos/servicios que lo necesiten).
-  
-  Ejecuta un comando al final solo para mostrar que todo funcionó.
