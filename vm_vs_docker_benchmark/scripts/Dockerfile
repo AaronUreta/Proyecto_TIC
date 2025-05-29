@@ -1,19 +1,12 @@
-# Usa Ubuntu 20.04 como base
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
-# Evita interacción manual durante la instalación de paquetes
-ENV DEBIAN_FRONTEND=noninteractive
+RUN apt update && \
+    apt install -y chocolate-doom
 
-# Instala dependencias necesarias para correr Doom
-RUN apt-get update && apt-get install -y \
-    chocolate-doom \
-    x11-apps \
-    libx11-6 \
-    && apt-get clean
+RUN useradd -ms /bin/bash doomuser
+USER doomuser
+WORKDIR /home/doomuser
 
-# Si fuera necesario descargar el archivo WAD (comentado)
-# RUN mkdir /root/.local/share/doom && \
-#     wget -O /root/.local/share/doom/DOOM1.WAD https://example.com/doom1.wad
+COPY DOOM.WAD ./DOOM.WAD
 
-# Comando por defecto al iniciar el contenedor
-CMD ["chocolate-doom"]
+CMD ["/usr/games/chocolate-doom", "-iwad", "DOOM.WAD"]
