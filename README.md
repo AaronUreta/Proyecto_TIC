@@ -50,8 +50,8 @@ Este proyecto compara el rendimiento y la facilidad de uso de ejecutar **Chocola
 
 ---
 
-### ✅ DOOM en Máquina Virtual (fluido)
-![DOOM en VM](https://images.contentful.com/rporu91m20dc/h1RsLOlMSkgesWooSGGIQ/e49820d780a54f499dc6f8f0d4ecbaa8/data.images.event.95.DOOM_Gauss-Cannon_730x411.gif)
+### ✅ DOOM en Máquina Virtual 
+![DOOM en VM](https://i.gifer.com/OOar.gif)
 
-### ⚠️ DOOM en Docker (con lag)
+### ⚠️ DOOM en Docker 
 ![DOOM en Docker](https://i.gifer.com/788V.gif)
