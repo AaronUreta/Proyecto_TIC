@@ -25,22 +25,3 @@ Este proyecto se desarrolló en un entorno **GitHub Codespaces**, y compara el r
 | Sábado 17   | 8:15 PM    | VM      | 29                         | 215               |
 
 ---
-
-## 🛠️ Herramientas Utilizadas
-
-- Docker Desktop (WSL2)
-- Oracle VirtualBox
-- Ubuntu 20.04 LTS
-- Chocolate Doom (`sudo apt install chocolate-doom`)
-- Cronómetro y `top` / `docker stats` para medición de recursos
-
----
-
-## 🖼️ Diagrama de Flujo
-
-```mermaid
-graph TD
-  A[🪟 Windows Host] --> B[🐳 Docker + WSL2 - Doom]
-  A --> C[🖥️ VirtualBox VM - Ubuntu - Doom]
-  B --> D[🎮 Chocolate Doom (SDL en terminal)]
-  C --> E[🎮 Chocolate Doom (interfaz X11)]
