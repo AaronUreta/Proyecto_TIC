@@ -25,3 +25,4 @@ Este proyecto se desarrolló en un entorno **GitHub Codespaces**, y compara el r
 | Sábado 17   | 8:15 PM    | VM      | 29                         | 215               |
 
 ---
+![Diagrama de Comparativa](diagrama de flujo.png)
