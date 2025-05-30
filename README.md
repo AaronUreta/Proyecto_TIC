@@ -50,15 +50,8 @@ Este proyecto compara el rendimiento y la facilidad de uso de ejecutar **Chocola
 
 ---
 
-## 🛠️ Instalación y Ejecución
+### ✅ DOOM en Máquina Virtual (fluido)
+![DOOM en VM](https://images.contentful.com/rporu91m20dc/h1RsLOlMSkgesWooSGGIQ/e49820d780a54f499dc6f8f0d4ecbaa8/data.images.event.95.DOOM_Gauss-Cannon_730x411.gif)
 
-### En Máquina Virtual (Ubuntu)
-
-```bash
-sudo apt update
-sudo apt install chocolate-doom
-wget https://distro.ibiblio.org/pub/linux/distributions/slitaz/sources/packages/d/doom1.wad
-chocolate-doom -iwad ~/doom1.wad
-
-
-
+### ⚠️ DOOM en Docker (con lag)
+![DOOM en Docker](https://i.gifer.com/788V.gif)
